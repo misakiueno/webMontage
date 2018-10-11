@@ -70,21 +70,21 @@
   color: LightGreen;
   display: flex;
   flex-wrap: wrap;
-   height: 200px;
-   overflow: hidden;
-   position: center;
-   width: 100%;
-   height: 100%;
-   margin: 10px;
-   line-height: 20px;
+  /* height: 200px; */
+  overflow: hidden;
+  position: center;
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  line-height: 20px;
    /* Starting position */
    -moz-transform:translateY(-100%);
    -webkit-transform:translateY(-100%);
    transform:translateY(-100%);
    /* Apply animation to this element */
-   -moz-animation: example3 18s linear infinite;
-   -webkit-animation: example3 18s linear infinite;
-   animation: example3 18s linear infinite;
+   -moz-animation: example3 20s linear infinite;
+   -webkit-animation: example3 20s linear infinite;
+   animation: example3 20s linear infinite;
   }
   /* Move it (define the animation) */
 @-moz-keyframes example3 {
