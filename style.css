@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+#home {
+  /* background-image: url(images/oh.jpg);
+  background-size: 50vw; */
+  background-color: MediumSeaGreen;
+  animation-name: flux;
+  animation-duration: 4s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  font-family: 'Rubik', sans-serif;
+}
+
+@keyframes flux {
+  0% {
+    background-color: MediumSeaGreen;
+  }
+  100% {
+    background-color: Tomato;
+  }
+}
+
+.title {
+  color: orange;
+  margin-left: 110px;
+}
+
+.intro {
+  color: thistle;
+  margin-left: 110px;
+}
+
+#navBar {
+  margin-right: 100px;
+  margin-top: 100px;
+  text-align: right;
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px 2px red;
+  transition: all 2s ease;
+}
+
+#navBar:hover {
+  text-shadow: 15px 10px 25px PaleGreen, 10px 20px 25px MediumSpringGreen;
+  letter-spacing: 20px;
+}
+
+.imageRice {
+  margin-left: 100px;
+  width: 40%;
+  padding: 10px;
+  transition: all 1s ease;
+}
+
+.imageRice:hover {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='100' height='120' viewport='0 0 100 100' style='fill:black;font-size:60px;'><text y='50%'>🥢</text></svg>") 16 0,auto; /*emojicursor.app*/
+    transform: perspective(300px)
+    translateZ(200px)
+    /* rotateZ(200deg); */
+}
+
+#content {
+  background-color: teal;
+  font-family: 'Rubik', sans-serif;
+}
+
+#lyrics a:hover { background-color:SeaGreen;}
+
+#lyrics {
+  color: LightGreen;
+  display: flex;
+  flex-wrap: wrap;
+   height: 200px;
+   overflow: hidden;
+   position: center;
+   width: 100%;
+   height: 100%;
+   margin: 10px;
+   line-height: 20px;
+   /* Starting position */
+   -moz-transform:translateY(-100%);
+   -webkit-transform:translateY(-100%);
+   transform:translateY(-100%);
+   /* Apply animation to this element */
+   -moz-animation: example3 18s linear infinite;
+   -webkit-animation: example3 18s linear infinite;
+   animation: example3 18s linear infinite;
+  }
+  /* Move it (define the animation) */
+@-moz-keyframes example3 {
+   0%   { -moz-transform: translateY(-100%); }
+   100% { -moz-transform: translateY(100%); }
+  }
+@-webkit-keyframes example3 {
+   0%   { -webkit-transform: translateY(-100%); }
+   100% { -webkit-transform: translateY(100%); }
+  }
+@keyframes example3 {
+   0%   {
+   -moz-transform: translateY(-100%); /* Firefox bug fix */
+   -webkit-transform: translateY(-100%); /* Firefox bug fix */
+   transform: translateY(-100%);
+   }
+   100% {
+   -moz-transform: translateY(100%); /* Firefox bug fix */
+   -webkit-transform: translateY(100%); /* Firefox bug fix */
+   transform: translateY(100%);
+   }
+  }
+
+.brasil {
+  font-size: 0.5em;
+  width: 120px;
+  text-align: justify-left;
+}
+
+.energia {
+  font-size: 0.5em;
+  width: 120px;
+  text-align: justify-left;
+}
+
+.linda {
+  font-size: 0.5em;
+  width: 120px;
+  text-align: justify-left;
+}
+
+.moonRiver {
+  font-size: 0.5em;
+  width: 120px;
+  text-align: justify-left;
+}
+
+.zeppelin {
+  font-size: 0.5em;
+  width: 120px;
+  text-align: justify-left;
+}
+
+.beyond {
+  font-size: 0.5em;
+  width: 120px;
+  text-align: justify-left;
+}
+
+.sakurazaka {
+  font-size: 0.5em;
+  width: 120px;
+  text-align: justify-left;
+}
+
+.kiroro {
+  font-size: 0.5em;
+  width: 120px;
+  text-align: justify-left;
+}
+
+.standUp {
+  font-size: 0.5em;
+  width: 120px;
+  text-align: justify-left;
+}
+
+.difference {
+  font-size: 0.5em;
+  width: 120px;
+  text-align: justify-left;
+}
+
+.drinkee {
+  font-size: 0.5em;
+  width: 120px;
+  text-align: justify-left;
+}
+
+.BGs {
+  font-size: 0.5em;
+  width: 120px;
+  text-align: justify-left;
+}
